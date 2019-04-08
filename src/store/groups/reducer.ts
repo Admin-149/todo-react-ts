@@ -6,7 +6,7 @@ const initialState: IGroupsState = {
   loading: false
 };
 
-export const reducer = (state = initialState, action): IGroupsState => {
+export const reducer = (state = initialState, action: any): IGroupsState => {
   switch (action.type) {
     default:
       return state;

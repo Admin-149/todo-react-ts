@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import GroupsPage from "./views/GroupsPage";
 import GroupPage from "./views/GroupPage";
 import TaskPage from "./views/TaskPage";
-
+import "bootstrap/dist/css/bootstrap.css";
 class App extends Component {
   render() {
     return (

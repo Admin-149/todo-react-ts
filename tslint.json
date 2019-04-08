@@ -1,0 +1,25 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier",
+    "tslint-config-standard"
+  ],
+  "linterOptions": {
+    "exclude": ["node_modules/**/*.ts"]
+  },
+  "jsRules": {},
+  "rules": {
+    "object-literal-sort-keys": false,
+    "semicolon": true,
+    "quotemark": [true, "single", "jsx-double"],
+    "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
+    "space-before-function-paren": [
+      true,
+      { "anonymous": "never", "named": "never", "asyncArrow": "always" }
+    ],
+    "no-duplicate-imports": [false]
+  },
+  "rulesDirectory": []
+}
