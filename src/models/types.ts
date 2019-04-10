@@ -1,11 +1,11 @@
-export type Task = {
+export type ITask = {
   id: number;
   name: string;
   completed: Boolean;
 };
 
-export type Group = {
+export type IGroup = {
   id: number;
   name: string;
-  tasks: [Task];
+  tasks: ITask[];
 };

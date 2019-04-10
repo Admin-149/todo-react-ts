@@ -11,7 +11,8 @@ const style = {
   },
   containerChild: {
     width: "400px",
-    textAlign: "center" as "center"
+    textAlign: "center" as "center",
+    marginTop: "20px"
   }
 };
 
